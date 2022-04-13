@@ -1,0 +1,66 @@
+footer {
+    background: black;
+    color: #eee;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* display: flex; */
+}
+
+.footer-section {
+    width: 100%;
+    display: flex;
+    /* margin-left: 4em; */
+    padding: 0.5em 4em;
+}
+
+footer p {
+    padding: 1em;
+    width: 20%;
+    flex: 1;
+    margin: 0;
+}
+
+.contact {
+    flex: 3;
+    display: flex;
+}
+.quote {
+    flex: 1;
+    font-size: 1.3em;
+}
+
+.quote i {
+    color: yellow;
+}
+
+
+
+@media (max-width: 940px) {
+    .contact {
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .quote {
+        flex: 1;
+    }
+
+    .contact p {
+        width: 100%;
+        padding: 0.5em;
+    }
+}
+
+@media (max-width: 720px) {
+    .footer-section {
+        flex-direction: column-reverse;
+        flex: 1;
+    }
+
+    .quote {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+}

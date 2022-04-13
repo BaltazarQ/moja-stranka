@@ -1,0 +1,14 @@
+.name {
+    font-weight: bold;
+    color: cornflowerblue;
+    /* text-shadow: #fff 1px 1px 0px; */
+    text-shadow: #fff 1px 1px 0px, darkgoldenrod 5px 5px 5px;
+}
+
+.contact p::first-letter {
+    color: yellow;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+

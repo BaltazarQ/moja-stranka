@@ -1,0 +1,135 @@
+main {
+    background: rgba(238, 238, 238, .8);
+    display: flex;
+}
+
+.main-section {
+    /* width: 80%; */
+    flex: 6;
+    padding: 1em 4em;
+}
+
+.main-section p::first-letter {
+    color: #DE5728 ;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.main-section h1,
+.main-section h2,
+.main-section h3 {
+    font-weight: bold;
+    color: cornflowerblue;
+    text-shadow: #fff 1px 1px 0px, darkgoldenrod 5px 5px 5px;
+}
+
+aside {
+    /* width: 20%; */
+    min-width: 100px;
+    flex: 2;
+    /* background: rgba(238, 238, 238, .7); */
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+    background: rgb(54, 54, 54);
+    /* height: auto; */
+}
+
+.event {
+    padding: 1em;
+    border-bottom: rgba(238, 238, 238, .8) 1px dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.event h4 {
+    font-weight: bold;
+    text-decoration: underline #DE5728 ;
+    margin-bottom: 1em;
+}
+
+.next-event,
+.last-evenet {
+    width: 100%;
+    height: auto;
+    /* background: url('../img/mim-oslava.jpg') no-repeat center; */
+    /* opacity: 0.5; */
+    /* background-size: cover; */
+}
+
+.next-event img,
+.photo-event img {
+    width: 100%;
+}
+
+.photo-event {
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.photo-event img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.calendar {
+    height: 200px;
+}
+
+.back-to-top {
+	color: #DE5728;
+	position: fixed;
+	bottom: 5px;
+	right: 20px;
+	z-index: 10;
+	display: block;
+	opacity: 0.7;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+    color: #DE5728;
+	opacity: 1;
+	transition: opacity .2s;
+}
+
+@media (max-width: 940px) {
+    main {
+        flex-direction: column-reverse;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .event {
+        flex: 1;
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 720px) {
+
+    aside {
+        flex-direction: column;
+    }
+
+    .event {
+        flex: 1;
+        border-bottom: rgba(238, 238, 238, .8) 1px dotted;
+    }
+
+    .photo-event {
+        height: 300px;
+    }
+
+    .event:last-child {
+        border-bottom: none;
+    }
+}
