@@ -92,10 +92,6 @@
     .column {
         flex:50%
     }
-
-    .main-section {
-        width: 100%;
-    }
 }
 
 @media (max-width: 720px) {
