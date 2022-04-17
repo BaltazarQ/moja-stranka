@@ -149,7 +149,7 @@ $(document).ready(function($) {
 	
 	var colors = ['red', 'blue', 'green', 'yellow', 'orange'];
 
-	$('.navbar').find('a').on('mouseenter', function() {
+	$('.navbar').find('li').on('mouseenter', function() {
 		if ( $(this).is(':animated') ) return;					// TOTO MI ODSTAVI NAVRSTVENIE ANIMACII - KED S MYSOU PREBEHNEM VELAKRAT PONAD 'a' ELEMENT, TAK SA MI NEBUDU OPAKOVAT TOLKO KRAT, KOLKO KRAT SOM TAM PRESIEL MYSOU, ALE HNED AKO VYJDEM VON Z 'a' ELEMENTU, TAK SA UKONCI ANIMACIA - ZBADAR ROZDIEL PO ZAKOMENTOVANI
 		
 		var newColor = colors[Math.floor(Math.random() * colors.length)];
@@ -213,6 +213,23 @@ $(document).ready(function($) {
 	
 	// allowDrop();
 
+
+	var menuSmall = $('.menu-small')
+	var menu = $('.menu')
+	var gallery = $('.gallery')
+	var galleryMenu = $('.gallery-menu')
+
+	menu.css({'display': 'none'})
+
+	menuSmall.on('click', function(){
+		menu.slideToggle(500)
+	})
+
+	gallery.on('click', function(event){
+		// event.preventDefault()
+		galleryMenu.slideToggle(500)
+	})
+	
 		})(jQuery);
 
 // $('#cover').slide(2000);

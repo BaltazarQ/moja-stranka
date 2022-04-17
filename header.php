@@ -5,7 +5,7 @@
 	
 	<ul class="menu">
 		<li class="menu-item home"><a href="index.php">Domov</a></li>
-		<li class="menu-item gallery"><a href="gallery.php">Galeria</a>
+		<li class="menu-item gallery">Galeria
 			<ul class="gallery-menu">
 				<li class="gallery-item"><a href="medugorje.php">Medugorje</a></li>
 				<li class="gallery-item"><a href="mama.php">Mama 60</a></li>
