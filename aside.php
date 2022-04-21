@@ -3,7 +3,7 @@
     <div class="every-event next-event">
         <img src="img/mim-oslava.jpg" alt="najbližšia udalosť">
     </div>
-    <p>Najbližšia ohlásená udalosť je:</p>
+    <!-- <p>Najbližšia ohlásená udalosť je:</p> -->
 </section>
 
 <section class="event">
@@ -22,15 +22,15 @@
             <img src="img/ostatne/oth010.jpg" alt="" style="width: 100%">
             <img src="img/ostatne/oth011.jpg" alt="" style="width: 100%">
         </div>
-        <p>Názov poslednej udalosti</p>
+        <!-- <p>Názov poslednej udalosti</p> -->
         
     </div>
 </section>
 
-<section class="event">
+<!-- <section class="event">
     <h4>Kalendár</h4>
     <div class="every-event calendar">
         Miesto pre kalendár
     </div>
     
-</section>
+</section> -->
