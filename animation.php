@@ -43,7 +43,7 @@
 				$events = [
 					[
 						'name' => 'Mama meniny',
-						'date' => '29.7.2021',
+						'date' => '29.7.2022',
 						'what' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
 						mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
 						purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
@@ -52,7 +52,7 @@
 					
 					[
 						'name' => 'Marjena meniny',
-						'date' => '12.9.2021',
+						'date' => '12.9.2022',
 						'what' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
 						mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
 						purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
@@ -62,7 +62,7 @@
 
 					[
 						'name' => 'Daniela narodeniny',
-						'date' => '6.10.2021',
+						'date' => '6.10.2022',
 						'what' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
 						mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
 						purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
@@ -72,7 +72,7 @@
 
 					[
 						'name' => 'Martin meniny',
-						'date' => '11.11.2021',
+						'date' => '11.11.2022',
 						'what' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
 						mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
 						purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
@@ -81,8 +81,8 @@
 					],
 
 					[
-						'name' => 'Ja meniny',
-						'date' => '13.11.2021',
+						'name' => 'Stanislav meniny',
+						'date' => '13.11.2022',
 						'what' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
 						mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
 						purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 

@@ -3,7 +3,7 @@ footer {
     color: #eee;
     font-size: 0.8em;
     margin-bottom: 0;
-    padding-bottom: 1em;
+    /* padding-bottom: 1em; */
     /* display: flex; */
 }
 
@@ -11,7 +11,7 @@ footer {
     width: 100%;
     display: flex;
     /* margin-left: 4em; */
-    padding: 0.5em 4em;
+    padding: 0.5em 4em 3em 0.5em;
 }
 
 footer p {

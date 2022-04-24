@@ -6,7 +6,10 @@ main {
 .main-section {
     /* width: 80%; */
     flex: 6;
-    padding: 1em 4em;
+    padding: 3em 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-section p::first-letter {
@@ -15,12 +18,58 @@ main {
     font-weight: bold;
 }
 
+.main-section article {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    border-bottom: 1px solid cornflowerblue;
+    margin: 0 100px;
+}
+
+.person-description {
+    border: 1px solid #323232;
+    margin-bottom: 2em;
+
+    display: flex;
+}
+
+.person-description tr {
+    display: flex;
+}
+
+.person-name {
+    flex: 2;
+}
+
+.description {
+    flex: 3;
+}
+
+.description,
+.person-name {
+    border: 1px solid #323232;
+    border-collapse: collapse;
+    padding: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.main-section p {
+    padding-top: 2em;
+}
+
 .main-section h1,
 .main-section h2,
 .main-section h3 {
     font-weight: bold;
     color: cornflowerblue;
     text-shadow: #fff 1px 1px 0px, darkgoldenrod 5px 5px 5px;
+    margin: 10px auto;
 }
 
 aside {

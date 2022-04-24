@@ -39,61 +39,128 @@
 		
 		<section class="main-section">
 
-			<h1>Hlavný titulok</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-				mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-				purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-				vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-				pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-				dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-				eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-				vestibulum orci.</p>
+			<article>
+				<h1>Rodina Prokopovcov</h1>
+				<p><img src="img/miazgovci_001.jpg" alt="Miazgovci"></p>
+			</article>
 			
-			<h2>Podtitulok</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-				mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-				purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-				vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-				pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-				dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-				eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-				vestibulum orci.</p>
-			<h3>Nádpis odseku</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-				mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-				purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-				vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-				pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-				dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-				eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-				vestibulum orci.</p>
-			<h3>Nádpis odseku</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-				mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-				purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-				vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-				pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-				dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-				eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-				vestibulum orci.</p>
-			<h3>Nádpis odseku</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-				mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-				purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-				vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-				pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-				dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-				eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-				vestibulum orci.</p>
-			<h2>Podtitulok</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-				mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-				purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-				vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-				pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-				dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-				eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-				vestibulum orci.</p>
+			<article>
+				<h2>Zloženie</h2>
+				<p>
+					Rodina Prokopová sa skladá z týchto častí:
+					<ol>
+						<li>Rodičia
+							<ol>
+								<li>Otec</li>
+								<li>Mama</li>
+							</ol>
+						</li>
+						<li>Prvá dcéra</li>
+						<li>Druhá dcéra</li>
+						<li>Prvý syn</li>
+						<li>Tretia dcéra</li>
+						<li>Druhý syn</li>
+					</ol>
+				</p>
+			</article>
+
+			<article>
+				<h3>Rodičia</h3>
+				<p>Hlavná funkcia rodičov je nezabiť svoje deti, inak nazývaných aj "dedičov". Prvé úspechy svojej výchovy sa objavujú po cca 20 rokoch rodičovstva, 
+					keď deti jedno po druhom postupne odchádzajú z domu. Nakoniec doma zavládne dlho očakávaný pokoj, tzv. "kľud".
+				</p>
+			</article>
+			
+			<article>
+				<h3>Prvá dcéra</h3>
+				<table class="person-description">
+					<tr>
+						<th class="person-name">Oficiálny názov:</th>
+						<td class="description">Prvá dcéra</td>
+					</tr>
+					<tr>
+						<th class="person-name">Zaužívaný "Ľudový" názov:</th>
+						<td class="description">Katarína</td>
+					</tr>
+					<tr>
+						<th class="person-name">Rok výroby:</th>
+						<td class="description">V tom roku sa konala sa 5. československá spartakiáda. V 15 skladbách vystúpilo na Strahovskom štadióne 180 000 cvičencov. Spartakiádne vystúpenia videlo na milión divákov.</td>
+					</tr>
+				</table>
+			</article>
+
+			<article>
+				<h3>Druhá dcéra</h3>
+				<table class="person-description">
+					<tr>
+						<th class="person-name">Oficiálny názov:</th>
+						<td class="description">Druhá dcéra</td>
+					</tr>
+					<tr>
+						<th class="person-name">Zaužívaný "Ľudový" názov:</th>
+						<td class="description">Daniela</td>
+					</tr>
+					<tr>
+						<th class="person-name">Rok výroby:</th>
+						<td class="description">V tom roku bola otvorená trať vlaku TGV medzi Parížom a Lyonom s traťovou rýchlosťou 270km/h. TGV PSE č. 16 dosiahol na trati St. Florentin - Lyon [LGV Sud-Est] rýchlosť 380,4 km/h.</td>
+					</tr>
+				</table>
+			</article>
+
+			<article>
+				<h3>Prvý syn</h3>
+				<table class="person-description">
+					<tr>
+						<th class="person-name">Oficiálny názov:</th>
+						<td class="description">Prvý syn</td>
+					</tr>
+					<tr>
+						<th class="person-name">Zaužívaný "Ľudový" názov:</th>
+						<td class="description">Stanislav</td>
+					</tr>
+					<tr>
+						<th class="person-name">Rok výroby:</th>
+						<td class="description">V tom roku raketoplán Challenger explodoval 73 sekúnd po štarte a zahynula celá sedemčlenná posádka. Raketoplán bol pomenovaný podľa britskej lode Challenger, ktorá bola v rokoch 1873 – 1876 použitá pri prvej významnej oceánografickej expedícii.</td>
+					</tr>
+				</table>
+			</article>
+
+			<article>
+				<h3>Tretia dcéra</h3>
+				<table class="person-description">
+					<tr>
+						<th class="person-name">Oficiálny názov:</th>
+						<td class="description">Tretia dcéra</td>
+					</tr>
+					<tr>
+						<th class="person-name">Zaužívaný "Ľudový" názov:</th>
+						<td class="description">Marjena</td>
+					</tr>
+					<tr>
+						<th class="person-name">Rok výroby:</th>
+						<td class="description">V tom roku získal Jean-Marie Lehn Nobelovu cenu spolu s D. J. Cramom a Ch. J. Pedersenom za objav syntetických makrocyklických látok so selektívnymi vlastnosťami pre väzbu iónov a molekúl.</td>
+					</tr>
+				</table>
+			</article>
+
+			<article>
+				<h3>Druhý syn</h3>
+				<table class="person-description">
+					<tr>
+						<th class="person-name">Oficiálny názov:</th>
+						<td class="description">Druhý syn</td>
+					</tr>
+					<tr>
+						<th class="person-name">Zaužívaný "Ľudový" názov:</th>
+						<td class="description">Martin</td>
+					</tr>
+					<tr>
+						<th class="person-name">Rok výroby:</th>
+						<td class="description">V tom roku vyšiel operačný systém OS/2 2.0 s kódovým značením Cruiser. 32bitový systém umožňoval vďaka virtualizácii spustenie množstva programov určených pôvodne ako pre DOS, tak aj pre Windows. IBM tiež zakúpila licenciu na Windows 3.0, ktorý potom predávala pod názvom Win-OS/2.</td>
+					</tr>
+				</table>
+			</article>
+
 		</section>
 	</main>
 	
