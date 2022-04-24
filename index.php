@@ -48,9 +48,9 @@
 				<h2>Zloženie</h2>
 				<p>
 					Rodina Prokopová sa skladá z týchto častí:
-					<ol>
+					<ol class="family-list">
 						<li>Rodičia
-							<ol>
+							<ol class="parrents">
 								<li>Otec</li>
 								<li>Mama</li>
 							</ol>
