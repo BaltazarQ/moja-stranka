@@ -27,16 +27,11 @@ commentForm.addEventListener('submit', function(event){
         myArray.push({
             firstName: firstNameValue,
             comment: commentValue})
-            console.log(myArray)
             
             localStorage.setItem('comments', JSON.stringify(myArray))
         }
         
         let myIndex = (myArray.length -1)
-        console.log(myArray[myIndex])
-        
-        // let paragraph = document.createElement('p')
-        // let span = document.createElement('span')
         let divComment = document.createElement('div')
         divComment.setAttribute('class', 'comment-area')
         
@@ -61,20 +56,7 @@ commentForm.addEventListener('submit', function(event){
                                     <p>${oneComent.comment}</p>`
 
         myComments.prepend(divComment)
-
-    // let paragraph = document.createElement('p')
-    //     paragraph.innerHTML = 
-    //     `${oneComent.firstName} napísal(a): <br>
-    //     ${oneComent.comment}`
-        
-        // myComments.appendChild(paragraph)
-
-        console.log(oneComent.firstName)
-        console.log(oneComent.comment)
-
-        
+ 
     });
-
-
 
 })();

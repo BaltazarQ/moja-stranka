@@ -27,9 +27,7 @@
         ?>
 	</header>
 	
-	
 	<main>
-		
 		<aside>
 			<?php
 				include 'aside.php';
@@ -38,17 +36,17 @@
 		
 		<section class="main-section main-contact">
 
-		<div class="contact-section">
-			<h1 class="name">Stanislav Prokop</h1>
-			<p class="mail">Mail: <a href="mailto:prokopstanislav@gmail.com">prokopstanislav@gmail.com</a></p>
-			<p class="tel">Tel: <a href="tel:+421904744404">+421 904 744 404</a></p>
-		</div>
-		<div class="contact-text">
-			<p>Som mladý, optimisticky naladený muž, ktorý sa nebojí nových výziev. Na veci sa pozerám z viacerých strán. 
-				Rád trávim čas s priateľmi a rodinou. Mám rád DrD, humor a bryndzové halušky. 
-				Zaujíma ma história, aj technologické novinky.</p>
-			<p>Ak sa Vám môj projekt páči, dajte mi vedieť, ak sa Vám nepáči, tiež mi dajte vedieť, čo potrebuje doladiť. :-)</p>
-		</div>
+			<div class="contact-section">
+				<h1 class="name">Stanislav Prokop</h1>
+				<p class="mail">Mail: <a href="mailto:prokopstanislav@gmail.com">prokopstanislav@gmail.com</a></p>
+				<p class="tel">Tel: <a href="tel:+421904744404">+421 904 744 404</a></p>
+			</div>
+			<div class="contact-text">
+				<p>Som mladý, optimisticky naladený muž, ktorý sa nebojí nových výziev. Na veci sa pozerám z viacerých strán. 
+					Rád trávim čas s priateľmi a rodinou. Mám rád DrD, humor a bryndzové halušky. 
+					Zaujíma ma história, aj technologické novinky.</p>
+				<p>Ak sa Vám môj projekt páči, dajte mi vedieť, ak sa Vám nepáči, tiež mi dajte vedieť, čo potrebuje doladiť. :-)</p>
+			</div>
 
 		</section>
 		
@@ -60,13 +58,9 @@
 		?>
 	</footer>
 	
-	
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.colors.min.js"></script>
 	<script src="js/script.js"></script>
-	
-	
-		</script>
 	
 </body>
 

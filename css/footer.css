@@ -3,14 +3,11 @@ footer {
     color: #eee;
     font-size: 0.8em;
     margin-bottom: 0;
-    /* padding-bottom: 1em; */
-    /* display: flex; */
 }
 
 .footer-section {
     width: 100%;
     display: flex;
-    /* margin-left: 4em; */
     padding: 0.5em 4em 3em 0.5em;
 }
 
@@ -35,7 +32,6 @@ footer p {
 }
 
 
-
 @media (max-width: 940px) {
     .contact {
         flex-direction: column;
@@ -52,7 +48,11 @@ footer p {
     }
 }
 
+
+/* MEDIA  */
+
 @media (max-width: 720px) {
+    
     .footer-section {
         flex-direction: column-reverse;
         flex: 1;
@@ -62,5 +62,4 @@ footer p {
         width: 100%;
         margin-bottom: 1em;
     }
-
 }

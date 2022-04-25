@@ -9,7 +9,6 @@
 .name {
     font-weight: bold;
     color: cornflowerblue;
-    /* text-shadow: #fff 1px 1px 0px; */
     text-shadow: #fff 1px 1px 0px, darkgoldenrod 5px 5px 5px;
     text-align: center;
 }
@@ -25,10 +24,15 @@
     font-weight: bold;
 }
 
+
+/* MEIDA  */
+
 @media(max-width: 720px) {
+
     .contact-text {
         width: 100%;
     }
+
     .main-contact {
         padding: 3em 2em;
     }

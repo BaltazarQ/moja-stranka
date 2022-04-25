@@ -16,8 +16,6 @@
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width">
-	
-
 </head>
 
 <body>
@@ -27,7 +25,6 @@
 			include 'header.php';
         ?>
 	</header>
-	
 	
 	<main>
 		<aside>
@@ -70,7 +67,6 @@
 			
 		</section>
 		
-		
 	</main>
 
 	<footer>
@@ -79,18 +75,10 @@
 		?>
 	</footer>
 
-	
-	
-	
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.colors.min.js"></script>
-	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
-	<script src="js/calendar.js"></script> -->
-	
-	<script src="js/include.js"></script>
 	<script src="js/gallery.js"></script>
 	<script src="js/script.js"></script>
-	
 	
 </body>
 

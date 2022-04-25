@@ -22,13 +22,11 @@
 
 <body>
 	
-	
 	<header>
 		<?php
 			include 'header.php';
         ?>
 	</header>
-	
 	
 	<main>
 		<aside>
@@ -44,60 +42,48 @@
 			?>
 
 			<div class="gallery">
-			<div class="gallery-set" id="celebrations">
-				<section class="column">
-					<a href="img/oslavy/cel001.jpg"><img src="img/oslavy/cel001.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel002.jpg"><img src="img/oslavy/cel002.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel003.jpg"><img src="img/oslavy/cel003.jpg" alt="" style="width: 100%"></a>
-				</section>
-				<section class="column">
-					<a href="img/oslavy/cel004.jpg"><img src="img/oslavy/cel004.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel005.jpg"><img src="img/oslavy/cel005.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel006.jpg"><img src="img/oslavy/cel006.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel007.jpg"><img src="img/oslavy/cel007.jpg" alt="" style="width: 100%"></a>
-				</section>
-				<section class="column">
-					<a href="img/oslavy/cel008.jpg"><img src="img/oslavy/cel008.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel009.jpg"><img src="img/oslavy/cel009.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel010.jpg"><img src="img/oslavy/cel010.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel011.jpg"><img src="img/oslavy/cel011.jpg" alt="" style="width: 100%"></a>
-				</section>
-				<section class="column">
-					<a href="img/oslavy/cel012.jpg"><img src="img/oslavy/cel012.jpg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel013.jpeg"><img src="img/oslavy/cel013.jpeg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel014.jpeg"><img src="img/oslavy/cel014.jpeg" alt="" style="width: 100%"></a>
-					<a href="img/oslavy/cel015.jpeg"><img src="img/oslavy/cel015.jpeg" alt="" style="width: 100%"></a>
-				</section>
-
-
-			</div>
+				<div class="gallery-set" id="celebrations">
+					<section class="column">
+						<a href="img/oslavy/cel001.jpg"><img src="img/oslavy/cel001.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel002.jpg"><img src="img/oslavy/cel002.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel003.jpg"><img src="img/oslavy/cel003.jpg" alt="" style="width: 100%"></a>
+					</section>
+					<section class="column">
+						<a href="img/oslavy/cel004.jpg"><img src="img/oslavy/cel004.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel005.jpg"><img src="img/oslavy/cel005.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel006.jpg"><img src="img/oslavy/cel006.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel007.jpg"><img src="img/oslavy/cel007.jpg" alt="" style="width: 100%"></a>
+					</section>
+					<section class="column">
+						<a href="img/oslavy/cel008.jpg"><img src="img/oslavy/cel008.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel009.jpg"><img src="img/oslavy/cel009.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel010.jpg"><img src="img/oslavy/cel010.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel011.jpg"><img src="img/oslavy/cel011.jpg" alt="" style="width: 100%"></a>
+					</section>
+					<section class="column">
+						<a href="img/oslavy/cel012.jpg"><img src="img/oslavy/cel012.jpg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel013.jpeg"><img src="img/oslavy/cel013.jpeg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel014.jpeg"><img src="img/oslavy/cel014.jpeg" alt="" style="width: 100%"></a>
+						<a href="img/oslavy/cel015.jpeg"><img src="img/oslavy/cel015.jpeg" alt="" style="width: 100%"></a>
+					</section>
+				</div>
 			</div>
 		
 		</section>
 		
-		
 	</main>
 	
-	
-	<!-- <div data-include="footer"></div> -->
 	<footer>
 		<?php
 			include 'footer.php';
 		?>
 	</footer>
-
-	
-	
 	
 	<script src="js/jquery.js"></script>
-	<script src="js/jquery.colors.min.js"></script>
-	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
-	<script src="js/calendar.js"></script> -->
-	
+	<script src="js/jquery.colors.min.js"></script>	
 	<script src="js/include.js"></script>
 	<script src="js/gallery.js"></script>
 	<script src="js/script.js"></script>
-	
 	
 </body>
 

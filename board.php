@@ -27,7 +27,6 @@
         ?>
 	</header>
 	
-	
 	<main>
 		<aside>
 			<?php
@@ -35,7 +34,6 @@
 			?>
 		</aside>
 		
-
 		<div class="main-section">
 
 			<section class="add-comment">
@@ -52,20 +50,6 @@
 			</section>
 		</div>
 
-			<!-- <hr> -->
-			
-			<!-- <article class="board" id="board">
-				<h1>Hlavný titulok</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-					mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-					purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-					vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-					pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-					dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-					eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-					vestibulum orci.</p>
-			</article> -->
-
 	</main>
 	
 	<footer>
@@ -79,9 +63,6 @@
 	<script src="js/jquery.colors.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/board.js"></script>
-	
-	
-		</script>
 	
 </body>
 

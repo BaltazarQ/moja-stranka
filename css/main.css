@@ -5,7 +5,6 @@ main {
 }
 
 .main-section {
-    /* width: 80%; */
     flex: 6;
     padding: 3em 4em;
     display: flex;
@@ -25,7 +24,6 @@ main {
 }
 
 .main-section article {
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -44,8 +42,6 @@ main {
 }
 
 .person-description {
-    /* border: 1px solid #323232; */
-    /* margin-bottom: 2em; */
     display: flex;
 }
 
@@ -63,19 +59,12 @@ main {
 
 .description,
 .person-name {
-    /* border: 1px solid #323232; */
-    /* border-collapse: collapse; */
     padding: 1em;
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
 }
-
-/* .main-section p {
-    padding-top: 2em;
-} */
 
 .main-section h1,
 .main-section h2,
@@ -92,15 +81,12 @@ main {
 }
 
 aside {
-    /* width: 20%; */
     min-width: 100px;
     flex: 2;
-    /* background: rgba(238, 238, 238, .7); */
     padding: 1em;
     text-align: center;
     color: #fff;
     background: rgb(54, 54, 54);
-    /* height: auto; */
 }
 
 .event {
@@ -120,9 +106,6 @@ aside {
 .last-evenet {
     width: 100%;
     height: auto;
-    /* background: url('../img/mim-oslava.jpg') no-repeat center; */
-    /* opacity: 0.5; */
-    /* background-size: cover; */
 }
 
 .next-event img,
@@ -162,7 +145,11 @@ aside {
 	transition: opacity .2s;
 }
 
+
+/* MEDIA */
+
 @media (max-width: 940px) {
+
     main {
         flex-direction: column-reverse;
     }

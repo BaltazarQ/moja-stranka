@@ -20,16 +20,16 @@ $(document).ready(function($) {
         })
 
 
+		
 	// 
-	// PRIESVITNOST OBRZKOV		========== NEFUNGUJE ==========
+	// PRIESVITNOST OBRAZKOV
 	// 
-	var gallery = $('.gallery-set'),
-	    startingOpacity = gallery.find('img').css('opacity');
+	var galleryImg = $('.gallery-set').find('img');
 
-	gallery.on('mouseenter mouseleave', 'img', function(event) {
-		var opacity = event.type === 'mouseenter' ? 0.5 : startingOpacity;
-		$(this).stop().fadeTo(opacity);
-	});
+	galleryImg.on('mouseenter mouseleave', function(event) {
+		event.type === 'mouseenter' ? $(this).css('opacity', '0.5') : $(this).css('opacity', '1')
+	})
+
 
 
 	// 
@@ -49,11 +49,10 @@ $(document).ready(function($) {
 		var href = $(this).attr('href'),
 			image = $('<img>', { src: href, alt: '' });
 
+			// SA ZOBRAZI LIGHTBOX
 			overlay.html( image )
 			       .show();
 
-		// SA ZOBRAZI LIGHTBOX
-		// overlay.show();
 		event.preventDefault();
 	});
 
@@ -114,10 +113,6 @@ $(document).ready(function($) {
 
 			newGallery.addClass('fadeIn' + selected.data('from').capipalize());
         });
-		
-		// // ajax request, do elementu gallery nacitame obsah stranky z tohoto linku
-		// gallery.load(href + ' .gallery-set');
-		
 
 	});
 			

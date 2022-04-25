@@ -107,29 +107,6 @@ $(document).ready(function($) {
 	// });
 
 
-
-
-	// 
-	// 
-	// ===== ANIMACIE POST-TITLE ===== 
-	// 
-	// 
-
-	// 
-	// ===== PRIDANIE/ODOBRATIE CLASSU ELEMENTU ===== //
-	// 
-	// $('.post-title')
-	// 	.on('click', function() {
-	// 		var e = $(this),
-	// 			className = 'round-round';
-
-	// 			// if ( e.hasClass(className) ) e.removeClass(className);		// AK MA ELEMENT CLASS, ODOBER HO
-	// 			// else e.addClass(className)									// INAK, AK HO NEMA, TAK HO PRIDAJ
-
-	// 		e.toggleClass(className);			// ALTERNATIVA K PODMIENKE VYSSIE
-	// 	});
-
-
 	// 
 	// 
 	// ===== ANIMACIA FARIEB ===== 
@@ -153,16 +130,8 @@ $(document).ready(function($) {
 		if ( $(this).is(':animated') ) return;					// TOTO MI ODSTAVI NAVRSTVENIE ANIMACII - KED S MYSOU PREBEHNEM VELAKRAT PONAD 'a' ELEMENT, TAK SA MI NEBUDU OPAKOVAT TOLKO KRAT, KOLKO KRAT SOM TAM PRESIEL MYSOU, ALE HNED AKO VYJDEM VON Z 'a' ELEMENTU, TAK SA UKONCI ANIMACIA - ZBADAR ROZDIEL PO ZAKOMENTOVANI
 		
 		var newColor = colors[Math.floor(Math.random() * colors.length)];
-			// Math.random - vyberie nahodne cislo od 0 do 1
-			// * colors.length - vynasobi to cislo poctom farieb v objekte colors
-			// Math.floor - zaokruhli nadol
-			// colors[] - vyberie farbu z objektu
 
-
-		$(this)
-			// .removeClass('pulse')		// odstrani mi class pre pripad, ze by uz nejaky mala
-			// .addClass('pulse')			// prida class 'pulse' 
-			.animate({ backgroundColor: newColor }, 'verySlow');	// animuje mi pozadie na novu farbu, trvanie je nastavene hodnotou, ktoru som si pridal vyssie cez '$.fx.speeds.verySlow = 5000;' 
+		$(this).animate({ backgroundColor: newColor }, 'verySlow');	// animuje mi pozadie na novu farbu, trvanie je nastavene hodnotou, ktoru som si pridal vyssie cez '$.fx.speeds.verySlow = 5000;' 
 	});
 
 	
@@ -192,28 +161,9 @@ $(document).ready(function($) {
 	});
 
 
-
+	//
+	// ROZKLIKNUTIE MENU
 	// 
-	// DRAG AND DROP
-	// 
-
-	function allowDrop(ev) {
-		ev.preventDefault();
-	  }
-	  
-	  function drag(ev) {
-		ev.dataTransfer.setData("text", ev.target.id);
-	  }
-	  
-	  function drop(ev) {
-		ev.preventDefault();
-		var data = ev.dataTransfer.getData("text");
-		ev.target.appendChild(document.getElementById(data));
-	  }
-	
-	// allowDrop();
-
-
 	var menuSmall = $('.menu-small')
 	var menu = $('.menu')
 	var gallery = $('.gallery')
@@ -226,7 +176,6 @@ $(document).ready(function($) {
 	})
 
 	gallery.on('click', function(event){
-		// event.preventDefault()
 		galleryMenu.slideToggle(500)
 	})
 	

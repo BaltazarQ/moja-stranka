@@ -16,8 +16,6 @@
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width">
-	
-
 </head>
 
 <body>
@@ -27,7 +25,6 @@
 			include 'header.php';
         ?>
 	</header>
-
 
 	<main>
 		<aside>
@@ -43,38 +40,37 @@
 			?>
 
 			<div class="gallery">
-            <div class="gallery-set" id="medugorje">
-				<section class="column">
-					<a href="img/medugorje/med001.jpg"><img src="img/medugorje/med001.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med002.jpg"><img src="img/medugorje/med002.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med003.jpg"><img src="img/medugorje/med003.jpg" alt="" style="width:100%"></a>
-				</section>
-				<section class="column">
-					<a href="img/medugorje/med004.jpg"><img src="img/medugorje/med004.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med005.jpg"><img src="img/medugorje/med005.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med006.jpg"><img src="img/medugorje/med006.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med007.jpg"><img src="img/medugorje/med007.jpg" alt="" style="width:100%"></a>
-				</section>
-				<section class="column">
-					<a href="img/medugorje/med008.jpg"><img src="img/medugorje/med008.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med009.jpg"><img src="img/medugorje/med009.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med010.jpg"><img src="img/medugorje/med010.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med011.jpg"><img src="img/medugorje/med011.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med012.jpg"><img src="img/medugorje/med012.jpg" alt="" style="width:100%"></a>
-				</section>
-				<section class="column">
-					<a href="img/medugorje/med013.jpg"><img src="img/medugorje/med013.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med014.jpg"><img src="img/medugorje/med014.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med015.jpg"><img src="img/medugorje/med015.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med016.jpg"><img src="img/medugorje/med016.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med017.jpg"><img src="img/medugorje/med017.jpg" alt="" style="width:100%"></a>
-					<a href="img/medugorje/med018.jpg"><img src="img/medugorje/med018.jpg" alt="" style="width:100%"></a>
-				</section>
-            </div>
+				<div class="gallery-set" id="medugorje">
+					<section class="column">
+						<a href="img/medugorje/med001.jpg"><img src="img/medugorje/med001.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med002.jpg"><img src="img/medugorje/med002.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med003.jpg"><img src="img/medugorje/med003.jpg" alt="" style="width:100%"></a>
+					</section>
+					<section class="column">
+						<a href="img/medugorje/med004.jpg"><img src="img/medugorje/med004.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med005.jpg"><img src="img/medugorje/med005.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med006.jpg"><img src="img/medugorje/med006.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med007.jpg"><img src="img/medugorje/med007.jpg" alt="" style="width:100%"></a>
+					</section>
+					<section class="column">
+						<a href="img/medugorje/med008.jpg"><img src="img/medugorje/med008.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med009.jpg"><img src="img/medugorje/med009.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med010.jpg"><img src="img/medugorje/med010.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med011.jpg"><img src="img/medugorje/med011.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med012.jpg"><img src="img/medugorje/med012.jpg" alt="" style="width:100%"></a>
+					</section>
+					<section class="column">
+						<a href="img/medugorje/med013.jpg"><img src="img/medugorje/med013.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med014.jpg"><img src="img/medugorje/med014.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med015.jpg"><img src="img/medugorje/med015.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med016.jpg"><img src="img/medugorje/med016.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med017.jpg"><img src="img/medugorje/med017.jpg" alt="" style="width:100%"></a>
+						<a href="img/medugorje/med018.jpg"><img src="img/medugorje/med018.jpg" alt="" style="width:100%"></a>
+					</section>
+				</div>
             </div>
 			
 		</section>
-		
 		
 	</main>
 
@@ -84,18 +80,11 @@
 		?>
 	</footer>
 
-	
-	
-	
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.colors.min.js"></script>
-	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
-	<script src="js/calendar.js"></script> -->
-	
 	<script src="js/include.js"></script>
 	<script src="js/gallery.js"></script>
 	<script src="js/script.js"></script>
-	
 	
 </body>
 

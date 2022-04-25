@@ -3,11 +3,6 @@
     padding: 1em 4em
 }
 
-.my-comments{
-    /* width: 80%; */
-    /* padding: 10px; */
-}
-
 .comment-area{
     border: 1px solid #a9a9a9;
     border-radius: 20px;
@@ -19,11 +14,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-left: 5%; */
 }
 
 #comment-form input {
     padding: 4px;
     margin: 5px;
-    /* border-radius: 5px; */
 }
