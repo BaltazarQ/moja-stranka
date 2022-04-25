@@ -1,8 +1,21 @@
+.main-contact {
+    flex: 6;
+}
+
+.contact-section {
+    display: block;
+}
+
 .name {
     font-weight: bold;
     color: cornflowerblue;
     /* text-shadow: #fff 1px 1px 0px; */
     text-shadow: #fff 1px 1px 0px, darkgoldenrod 5px 5px 5px;
+    text-align: center;
+}
+
+.contact-text {
+    width: 75%;
 }
 
 .contact p::first-letter {
@@ -12,3 +25,14 @@
     font-weight: bold;
 }
 
+@media(max-width: 720px) {
+    .contact-text {
+        width: 100%;
+    }
+}
+
+@media(max-width: 480px) {
+    .main-contact {
+        padding: 3em 2em;
+    }
+}

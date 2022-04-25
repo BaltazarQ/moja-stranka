@@ -36,19 +36,19 @@
 			?>
 		</aside>
 		
-		<section class="main-section">
+		<section class="main-section main-contact">
 
+		<div class="contact-section">
 			<h1 class="name">Stanislav Prokop</h1>
-			<p class="mail">Mail:<a href="mailto:prokopstanislav@gmail.com"> prokopstanislav@gmail.com</a></p>
-			<p class="tel">Tel:<a href="tel:+421904744404"> +421 904 744 404</a></p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante dolor, laoreet vel 
-				mi non, laoreet posuere enim. Maecenas at laoreet turpis, feugiat euismod dui. Fusce 
-				purus risus, aliquet vel nisi non, elementum vulputate diam. Aliquam a leo porta, 
-				vestibulum ex eget, mollis tortor. Nam aliquam enim sit amet velit pharetra, dignissim 
-				pulvinar nisl lacinia. Mauris non efficitur diam. Suspendisse consectetur lectus sit amet 
-				dui condimentum, vitae suscipit tellus molestie. Integer quam orci, aliquam id interdum eget, 
-				eleifend quis orci. Nunc enim nisi, viverra id libero in, tincidunt interdum dolor. Integer ut 
-				vestibulum orci.</p>
+			<p class="mail">Mail: <a href="mailto:prokopstanislav@gmail.com">prokopstanislav@gmail.com</a></p>
+			<p class="tel">Tel: <a href="tel:+421904744404">+421 904 744 404</a></p>
+		</div>
+		<div class="contact-text">
+			<p>Som mladý, optimisticky naladený muž, ktorý sa nebojí nových výziev. Na veci sa pozerám z viacerých strán. 
+				Rád trávim čas s priateľmi a rodinou. Mám rád DrD, humor a bryndzové halušky. 
+				Zaujíma ma história, aj technologické novinky.</p>
+			<p>Ak sa Vám môj projekt páči, dajte mi vedieť, ak sa Vám nepáči, tiež mi dajte vedieť, čo potrebuje doladiť. :-)</p>
+		</div>
 
 		</section>
 		

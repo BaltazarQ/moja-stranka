@@ -101,15 +101,6 @@
     /* min-width: 100px; */
 }
 
-.gallery a:focus {
-    background: red;
-}
-
-/* .gallery:hover .gallery-menu {
-    display: flex;
-} */
-
-
 
 
 @media (max-width: 940px) {
