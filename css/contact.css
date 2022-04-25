@@ -29,9 +29,6 @@
     .contact-text {
         width: 100%;
     }
-}
-
-@media(max-width: 480px) {
     .main-contact {
         padding: 3em 2em;
     }
