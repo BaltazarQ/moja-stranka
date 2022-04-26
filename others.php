@@ -41,7 +41,7 @@
 				include 'gallery_list.php';
 			?>
 
-			<div class="gallery">
+			<div class="gallery-main">
 				<div class="gallery-set" id="others">
 					<section class="column">
 						<a href="img/ostatne/oth001.jpg"><img src="img/ostatne/oth001.jpg" alt="" style="width: 100%"></a>

@@ -38,7 +38,7 @@
 				include 'gallery_list.php';
 			?>
 
-			<div class="gallery">
+			<div class="gallery-main">
 				<div class="gallery-set" id="mama">
 					<section class="column">
 						<a href="img/mama_60/mam001.JPG"><img src="img/mama_60/mam001.JPG" alt="" style="width: 100%"></a>

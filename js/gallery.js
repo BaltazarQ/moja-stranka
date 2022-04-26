@@ -10,14 +10,14 @@ $(document).ready(function($) {
 	// 
 	// ===== PREKLIKAVANIE MEDZI KATEGORIAMI V GALERII ===== //
 	// 
-	// var gallery = $('.gallery'),
-    //     galleryLinks = gallery.find('a'),
-    //     time = 2000;
+	var gallery = $('.gallery'),
+        galleryLinks = gallery.find('a'),
+        time = 2000;
 
-    //     galleryLinks.on('click', function(event) {
-    //         $('html,body').animate({ scrollTop: $(this.hash).offset().top }, time);
-    //         event.preventDefault();
-    //     })
+        galleryLinks.on('click', function(event) {
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, time);
+            event.preventDefault();
+        })
 
 
 
@@ -84,7 +84,7 @@ $(document).ready(function($) {
 	// 
 	// 
 
-	var gallery = $('.gallery'),
+	var gallery = $('.gallery-main'),
 	    selected = $('.gallery-list').find('.selected');
 
 	// 
@@ -109,7 +109,7 @@ $(document).ready(function($) {
 		.siblings().removeClass('selected');
 
 		// nechame miznut aktualnu galeriu
-		gallery.find('.gallery-set').fadeOut(1000);
+		gallery.find('.gallery-set').fadeOut(500);
 
 		// zo stranky https://j11y.io/jquery/ najdeny kod, vo vyhladavaci zadane"load" 
 		$.ajax({
@@ -120,7 +120,7 @@ $(document).ready(function($) {
 
 			var newGallery = $(data).find('.gallery-set');
 			gallery.hide().html( newGallery );
-			gallery.fadeIn(1000);
+			gallery.fadeIn(500);
 
 			galleryOpacity()
 			lightbox()

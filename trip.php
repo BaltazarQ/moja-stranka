@@ -39,7 +39,7 @@
 				include 'gallery_list.php';
 			?>
 
-			<div class="gallery">
+			<div class="gallery-main">
 				<div class="gallery-set" id="trip">
 					<section class="column">
 						<a href="img/vylety/trip001.jpg"><img src="img/vylety/trip001.jpg" alt="" style="width: 100%"></a>
