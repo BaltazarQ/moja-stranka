@@ -10,14 +10,14 @@ $(document).ready(function($) {
 	// 
 	// ===== PREKLIKAVANIE MEDZI KATEGORIAMI V GALERII ===== //
 	// 
-	var gallery = $('.gallery'),
-        galleryLinks = gallery.find('a'),
-        time = 2000;
+	// var gallery = $('.gallery'),
+    //     galleryLinks = gallery.find('a'),
+    //     time = 2000;
 
-        galleryLinks.on('click', function(event) {
-            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, time);
-            event.preventDefault();
-        })
+    //     galleryLinks.on('click', function(event) {
+    //         $('html,body').animate({ scrollTop: $(this.hash).offset().top }, time);
+    //         event.preventDefault();
+    //     })
 
 
 
@@ -42,36 +42,40 @@ $(document).ready(function($) {
 	// LIGHTBOX
 	// 
 
-	var gallery = $('.gallery-set'),
-	overlay = $('<div/>', { id: 'overlay' });
+	var lightbox = function () {
+
+		var gallerySet = $('.gallery-set'),
+		overlay = $('<div/>', { id: 'overlay' });
+		
+		// VYTVORIME OVERLAY
+			overlay.appendTo('body').hide();
 	
-	// VYTVORIME OVERLAY
-		overlay.appendTo('body').hide();
-
-	// PO KLIKNUTI NA OBRAZOK
-	gallery.on('click', 'a', function(event) {
-
-		// VYTIAHNEME Z OBRAZKA JEHO href A ZOBRAZIME HO NA OVERLAY
-		var href = $(this).attr('href'),
-			image = $('<img>', { src: href, alt: '' });
-
-			// SA ZOBRAZI LIGHTBOX
-			overlay.html( image )
-			       .show();
-
-		event.preventDefault();
-	});
-
-	// SKRYJEME OVERLAY
-	overlay.on('click', function() {
-		overlay.hide();
-	});
+		// PO KLIKNUTI NA OBRAZOK
+		gallerySet.on('click', 'a', function(event) {
 	
-	// TLACIDLOM ESC ZAVRIEME OBRAZOK
-	$(document).on('keyup', function(event) {
-		if ( event.which === 27 ) overlay.hide();
-	});
+			// VYTIAHNEME Z OBRAZKA JEHO href A ZOBRAZIME HO NA OVERLAY
+			var href = $(this).attr('href'),
+				image = $('<img>', { src: href, alt: '' });
+	
+				// SA ZOBRAZI LIGHTBOX
+				overlay.html( image )
+					   .show();
+	
+			event.preventDefault();
+		});
+	
+		// SKRYJEME OVERLAY
+		overlay.on('click', function() {
+			overlay.hide();
+		});
+		
+		// TLACIDLOM ESC ZAVRIEME OBRAZOK
+		$(document).on('keyup', function(event) {
+			if ( event.which === 27 ) overlay.hide();
+		});
+	}
 
+	lightbox()
 
 
 	// 
@@ -118,7 +122,8 @@ $(document).ready(function($) {
 			gallery.hide().html( newGallery );
 			gallery.fadeIn(1000);
 
-			galleryOpacity();
+			galleryOpacity()
+			lightbox()
         });
 	});
 			
