@@ -30,7 +30,7 @@ $(document).ready(function($) {
 		var galleryImg = $('.gallery-set').find('img');
 		
 		galleryImg.on('mouseenter mouseleave', function(event) {
-			event.type === 'mouseenter' ? $(this).animate({opacity: '0.7'}, 300) : $(this).animate({opacity: '1'}, 300)
+			event.type === 'mouseenter' ? $(this).stop().animate({opacity: '0.7'}, 300) : $(this).stop().animate({opacity: '1'}, 300)
 		})
 	}
 
