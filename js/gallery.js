@@ -119,14 +119,7 @@ $(document).ready(function($) {
 			gallery.fadeIn(1000);
 
 			galleryOpacity();
-
-
-
-			// newGallery.addClass('fadeIn' + selected.data('from').capipalize());
-			// gallery.fadeIn();
-			// console.log(newGallery)
         });
-
 	});
 			
 
