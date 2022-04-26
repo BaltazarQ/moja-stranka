@@ -43,7 +43,7 @@ $(document).ready(function($) {
 	// napr. 'speeds' maju nastavene 'default', 'fast', 'slow', tieto mozem pouzit ako atribut namiesto hodnoty
 	// tymto zapisom vyssie si mozem pridat vlastne nastavenia, ktore mozem potom pouzit
 	
-	var colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+	var colors = ['rgb(254, 120, 120)', 'rgb(127, 127, 255)', 'rgb(101, 208, 101)', 'rgb(255, 255, 164)', 'rgb(255, 205, 111)'];
 
 	$('.navbar').find('li').on('mouseenter', function() {
 		if ( $(this).is(':animated') ) return;					// TOTO MI ODSTAVI NAVRSTVENIE ANIMACII - KED S MYSOU PREBEHNEM VELAKRAT PONAD 'a' ELEMENT, TAK SA MI NEBUDU OPAKOVAT TOLKO KRAT, KOLKO KRAT SOM TAM PRESIEL MYSOU, ALE HNED AKO VYJDEM VON Z 'a' ELEMENTU, TAK SA UKONCI ANIMACIA - ZBADAR ROZDIEL PO ZAKOMENTOVANI
