@@ -20,15 +20,21 @@ $(document).ready(function($) {
         })
 
 
-		
+
 	// 
 	// PRIESVITNOST OBRAZKOV
 	// 
-	var galleryImg = $('.gallery-set').find('img');
 
-	galleryImg.on('mouseenter mouseleave', function(event) {
-		event.type === 'mouseenter' ? $(this).css('opacity', '0.5') : $(this).css('opacity', '1')
-	})
+	var galleryOpacity = function() {
+		
+		var galleryImg = $('.gallery-set').find('img');
+		
+		galleryImg.on('mouseenter mouseleave', function(event) {
+			event.type === 'mouseenter' ? $(this).animate({opacity: '0.7'}, 300) : $(this).animate({opacity: '1'}, 300)
+		})
+	}
+
+	galleryOpacity()
 
 
 
@@ -74,7 +80,7 @@ $(document).ready(function($) {
 	// 
 	// 
 
-	var gallery = $('.gallery-set'),
+	var gallery = $('.gallery'),
 	    selected = $('.gallery-list').find('.selected');
 
 	// 
@@ -99,7 +105,7 @@ $(document).ready(function($) {
 		.siblings().removeClass('selected');
 
 		// nechame miznut aktualnu galeriu
-		gallery.find('.gallery-set').fadeOut();
+		gallery.find('.gallery-set').fadeOut(1000);
 
 		// zo stranky https://j11y.io/jquery/ najdeny kod, vo vyhladavaci zadane"load" 
 		$.ajax({
@@ -109,9 +115,16 @@ $(document).ready(function($) {
         }).done(function (data) {
 
 			var newGallery = $(data).find('.gallery-set');
-			gallery.html( newGallery );
+			gallery.hide().html( newGallery );
+			gallery.fadeIn(1000);
 
-			newGallery.addClass('fadeIn' + selected.data('from').capipalize());
+			galleryOpacity();
+
+
+
+			// newGallery.addClass('fadeIn' + selected.data('from').capipalize());
+			// gallery.fadeIn();
+			// console.log(newGallery)
         });
 
 	});

@@ -82,7 +82,6 @@
 
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.colors.min.js"></script>
-	<script src="js/include.js"></script>
 	<script src="js/gallery.js"></script>
 	<script src="js/script.js"></script>
 	
