@@ -14,7 +14,7 @@
 				<li class="gallery-item"><a href="others.php">Ostatné</a></li>
 			</ul>
 		</li>
-		<li class="menu-item animation"><a href="animation.php">Udalosti</a></li>
+		<li class="menu-item event"><a href="event.php">Udalosti</a></li>
 		<li class="menu-item board"><a href="board.php">Nástenka</a></li>
 		<li class="menu-item contact"><a href="contact.php">Kontakt</a></li>
 	</ul>
