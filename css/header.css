@@ -17,12 +17,15 @@
 .menu-small {
     flex: 1;
     display: flex;
-    margin: 2%;
+    margin: 0 2%;
     list-style: none;
     background: rgba(255, 255, 255, 0.7);
     text-align: center;
-    padding: 0 10px;
+    padding: 0;
     justify-content: center;
+    height: 2em;
+    align-items: center;
+    cursor: pointer;
 }
 
 .menu a,
@@ -31,6 +34,8 @@
     justify-content: center;
     align-items: center;
     color: #000;
+    width: 100%;
+    /* padding: 5px; */
 }
 
 .menu a:hover,
@@ -63,6 +68,7 @@
     top: 2em;
     padding: 0;
     border-radius: 0.2em;
+    width: 100%;
 }
 
 .gallery-menu li {
