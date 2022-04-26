@@ -1,10 +1,11 @@
 
 .gallery-list {
-    width: 80%;
+    width: 100%;
     display: flex;
     margin: 2em auto;
     text-align: center;
-    justify-content: space-around;    
+    justify-content: space-around;
+    padding: 0;
 }
 
 .gallery-list-item {
@@ -87,13 +88,13 @@
 
 
 @media (max-width: 720px) {
-    
+
     .column {
         flex: 100%;
     }
 
     .gallery-list {
-        width: 60%;
+        width: 40%;
         flex-direction: column;
         justify-content: center;
     }

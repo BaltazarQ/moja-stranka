@@ -5,8 +5,3 @@
 @import 'contact.css';
 @import 'footer.css';
 @import 'board.css';
-
-body {
-    margin: 0;
-    padding: 0;
-}
