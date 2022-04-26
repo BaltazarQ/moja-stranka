@@ -1,7 +1,9 @@
 <section class="event">
     <h4>Najbližšia udalosť</h4>
     <div class="every-event next-event">
-        <img src="img/mim-oslava.jpg" alt="najbližšia udalosť">
+        <a href="animation.php">
+            <img src="img/mim-oslava.jpg" alt="najbližšia udalosť">
+        </a>
     </div>
 </section>
 
