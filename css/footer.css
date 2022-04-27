@@ -33,6 +33,10 @@ footer p {
 
 
 @media (max-width: 940px) {
+
+    .footer-section {
+        padding-bottom: 5em;
+    }
     .contact {
         flex-direction: column;
         flex: 1;
@@ -59,6 +63,7 @@ footer p {
     .footer-section {
         flex-direction: column-reverse;
         flex: 1;
+        padding-bottom: 7em;
     }
 
     .quote {
