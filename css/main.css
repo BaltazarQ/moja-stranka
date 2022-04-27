@@ -112,7 +112,8 @@ aside {
 }
 .event h4 {
     font-weight: bold;
-    text-decoration: underline #DE5728 ;
+    -webkit-text-decoration: underline #DE5728 ;
+            text-decoration: underline #DE5728 ;
     margin-bottom: 1em;
 }
 
