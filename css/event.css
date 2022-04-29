@@ -1,3 +1,9 @@
 .what {
     text-align: justify;
+    border-bottom: 1px solid cornflowerblue;
+    padding-bottom: 2em;
+}
+
+.event-section article {
+    border-bottom: none;
 }

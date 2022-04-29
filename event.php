@@ -36,7 +36,7 @@
 			?>
 		</aside>
 		
-		<section class="main-section">
+		<section class="main-section event-section">
 
 			
 			<?php
