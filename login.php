@@ -34,9 +34,11 @@
 			?>
 		</aside>
 		
-		<div id="login-section" class="main-section">
+		<div id="" class="main-section">
+            <div class="login-section">
                 <p class="log-in"><a href="#">Prihlásiť sa</a></p>
                 <p class="register"><a href="#">Zaregistrovať sa</a></p>
+            </div>
 		</div>
 			
 
