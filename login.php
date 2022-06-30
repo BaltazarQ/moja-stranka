@@ -1,3 +1,27 @@
+<?php
+
+    if(isset($_POST['submit'])){
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+
+        if($username && $password) {
+            echo $username;
+            echo '<br>';
+            echo $password;
+        } else {
+            echo 'nieco chyba';
+        }
+
+        $connection = mysqli_connect('localhost', 'root', '', 'my_page_login');
+
+        if($connection){
+            echo 'sme prepojeni s databazou';
+        } else {
+            die ('niekde je chyba, databaza nepripojena');
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,7 +67,7 @@
             <section class="login-section">
                 <p class="login-text">Pre prihlásenie zadaj meno a heslo</p>
                 <p class="register-text">Ak sa chceš zaregistrovať, zadaj meno a heslo<br>Môžeš použiť jednoduché heslo.<br><strong>Nepouživaj heslo, ktoré použvaš napr. do internetbankingu, mailu a iným svojim účtom. Zabezpečenie tejto stránky je minimálne!!!</strong></p>
-                <form action="login.php">
+                <form action="login.php" method="post">
                     <input type="text" name="username" placeholder="Zadaj meno">
                     <input type="password" name="password" placeholder="Zadaj heslo">
                     <input type="submit" name="submit" value="Potvrď">
