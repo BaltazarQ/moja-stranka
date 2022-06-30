@@ -35,10 +35,20 @@
 		</aside>
 		
 		<div id="" class="main-section">
-            <div class="login-section">
+            <section class="login-menu">
                 <p class="log-in"><a href="#">Prihlásiť sa</a></p>
                 <p class="register"><a href="#">Zaregistrovať sa</a></p>
-            </div>
+            </section>
+
+            <section class="login-section">
+                <p class="login-text">Pre prihlásenie zadaj meno a heslo</p>
+                <p class="register-text">Ak sa chceš zaregistrovať, zadaj meno a heslo<br>Môžeš použiť jednoduché heslo.<br><strong>Nepouživaj heslo, ktoré použvaš napr. do internetbankingu, mailu a iným svojim účtom. Zabezpečenie tejto stránky je minimálne!!!</strong></p>
+                <form action="login.php">
+                    <input type="text" name="username" placeholder="Zadaj meno">
+                    <input type="password" name="password" placeholder="Zadaj heslo">
+                    <input type="submit" name="submit" value="Potvrď">
+                </form>
+            </section>
 		</div>
 			
 
