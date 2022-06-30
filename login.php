@@ -19,6 +19,15 @@
         } else {
             die ('niekde je chyba, databaza nepripojena');
         }
+
+        $query = "INSERT INTO users(username, password) VALUES ('$username', '$password')";
+        
+        $result = mysqli_query($connection, $query);
+
+        if(!$result) {
+            die('Dotaz do databazy zlyhal'.mysqli_error());
+        }
+
     }
 ?>
 
